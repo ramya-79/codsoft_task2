@@ -1,0 +1,123 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #004c99;
+    color: white;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.logo h2 span {
+    color: #00cc66;
+}
+
+.logo p {
+    font-size: 14px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.post-job-btn {
+    background-color: #00cc66;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.post-job-btn:hover {
+    background-color: #00994d;
+}
+
+main {
+    text-align: center;
+    background: linear-gradient(to right, #0066cc, #00ccff);
+    padding: 40px 0;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.upload-btn {
+    background-color: #00cc66;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+.upload-btn:hover {
+    background-color: #00994d;
+}
+
+.search-jobs {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.search-jobs input {
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.find-job-btn {
+    background-color: #00cc66;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.find-job-btn:hover {
+    background-color: #00994d;
+}
